@@ -15,7 +15,7 @@ import seaborn as sns
 CFAIR10_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
 # load a image
-image = Image.open('./sample.jpg')
+image = Image.open('./cifar10/sample.jpg')
 
 transform = transforms.Compose(
     [transforms.Resize((32, 32)),
